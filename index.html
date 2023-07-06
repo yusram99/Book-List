@@ -15,6 +15,7 @@
         <h1>My Book List</h1>
     </div>
     <div class="form-container">
+                <!-- Book form -->
         <form id="book-form">
             <div class="form-group">
                 <label for="title" class="book-title">Title</label>
@@ -30,7 +31,9 @@
             </div>
             <input type="submit" value="Add Book" class="btn btn-primary">
         </form>
+                <!-- Search input -->
         <input type="text" id="myInput" onkeyup="searchBook()" placeholder="Search for the book..">
+                <!-- Book list -->
         <table class="table table-hover">
             <thead>
                 <tr>
@@ -42,10 +45,12 @@
             </thead>
             <tbody id="book-list"></tbody>
         </table>
+                <!-- Delete list button -->
         <button id="del-list-btn" class="btn btn-primary">Delete List</button>
     </div>
+        <!-- JavaScript file -->
     <script src="script.js"></script>
-    
+
 </body>
 
 </html>
